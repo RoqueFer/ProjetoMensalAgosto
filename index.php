@@ -31,7 +31,9 @@
             </div>
          </div>   
         <!-- Modal p/ Add/Edit/Delete um evento -->
-         <div id="eventSelectorWrapper">
+        <div class="modal" id="eventModal">
+        <div class="modal-content">
+        <div id="eventSelectorWrapper">
             <label for="eventSelectorWrapper">
                     <strong>Select Event:</strong>
             </label>
@@ -71,7 +73,8 @@
 
         <!-- ❌ Cancel -->
          <button type="button" clas="submit-btn">❌ cancelar</button>
-
+    </div>
+</div>
         <script src="calendar.js"></script> 
     </body>
 </html>
